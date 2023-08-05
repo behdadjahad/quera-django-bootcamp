@@ -1,16 +1,16 @@
 # quera-django-bootcamp
 
-I'm trying to document all the codes and commands or any other useful peace of data from quera software engineering with django boot camp in this repository.
+I'm trying to document all the code and commands or any other useful piece of data from Quera software engineering with the django boot camp in this repository.
 
-feel free to add any thing that I missed out.
+Feel free to add anything that I missed out.
 
 # Structure of Document
 
-this boot camp is 12 week long and every week has 2 days of online lectures and every lecture day contains 3 lectures.
-so I will use directories to organize the materials and a simple markdown file for documentations.
+This boot camp is 12 weeks long and every week has 2 days of online lectures and every day includes 3 lectures.
+So I will use directories to organize the materials and a simple markdown file for documentations.
 
-this is my first time documenting something like this if there is anybody with other ideas of how to structure this documents or perhaps use another technology I would love to hear them out.
+This is my first time documenting something like this. If there is anybody with other ideas about how to structure these documents or perhaps use another technology, I would love to hear them out.
 
 # Contribution 
 
-if there are any technical or other problems in this documentation just raise an issue or send a pull request I will check them almost every night.
+If there are any technical or other problems in this documentation, just raise an issue or send a pull request. I will check them almost every night.
