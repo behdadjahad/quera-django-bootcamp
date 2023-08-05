@@ -4,7 +4,7 @@ I'm trying to document all the codes and commands or any other useful peace of d
 
 feel free to add any thing that I missed out.
 
-# Structure Of document
+# Structure of Document
 
 this boot camp is 12 week long and every week has 2 days of online lectures and every lecture day contains 3 lectures.
 so I will use directories to organize the materials and a simple markdown file for documentations.
