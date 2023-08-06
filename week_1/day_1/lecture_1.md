@@ -4,7 +4,13 @@
 
 ## simple print function
 
-```
+```python
 print('hello, world')
 ```
+the result will be:
 
+```terminal
+
+user@ubuntu:~$ hello, world
+
+```
