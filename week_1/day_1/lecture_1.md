@@ -24,7 +24,7 @@ print('hello world', end='-')
 
 ```bash
 user@ubuntu:~$ python3 print.py
-user@ubuntu:~$ hello, worlduser@ubuntu:~$
+user@ubuntu:~$ hello, world-user@ubuntu:~$
 ```
 
 ```python
