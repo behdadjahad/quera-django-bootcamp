@@ -11,7 +11,7 @@ the result will be:
 
 ```bash
 user@ubuntu:~$ hello, world
-
+ 
 ```
 
 note: the print function will add new line by default
