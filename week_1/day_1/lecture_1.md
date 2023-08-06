@@ -9,8 +9,20 @@ print('hello, world')
 ```
 the result will be:
 
-```terminal
-
+```t
 user@ubuntu:~$ hello, world
 
 ```
+
+note: the print function will add new line by default
+
+use end parameter to set your custom ending char
+
+```python
+print('hello world', end='-')
+```
+
+```bash
+user@ubuntu:~$ hello, world-
+```
+
