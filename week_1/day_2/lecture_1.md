@@ -2,9 +2,9 @@
 
 # python review
 
-this is zen of python and if you `import this` in python file some text will print on the screen which is something like python philosophy.
+This is the Zen of python and if you `import this` into a python file, some text will print on the screen, which is something like python philosophy.
 
-```bash
+```
 user@ubuntu:~$ python3
 Python 3.8.10 (default, May 26 2023, 14:05:08)
 [GCC 9.4.0] on linux
