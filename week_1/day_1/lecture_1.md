@@ -9,9 +9,9 @@ print('hello, world')
 ```
 the result will be:
 
-```t
+```bash
 user@ubuntu:~$ hello, world
-
+ 
 ```
 
 note: the print function will add new line by default
