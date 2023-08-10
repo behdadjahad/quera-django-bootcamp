@@ -66,9 +66,9 @@ print(a)
 
 ## cython vs jython vs cpython vs ironPython vs pypy
 
-. https://linuxhint.com/cpython-jython-ironpython-pypy-cython/
++ https://linuxhint.com/cpython-jython-ironpython-pypy-cython/
 
-. https://github.com/python/cpython
++ https://github.com/python/cpython
 
 
 ## REPL (Read Evaluate Print Loop)
@@ -87,7 +87,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 ### ipython
-https://ipython.org/
+
++ https://ipython.org/
 
 
 ``` bash
@@ -110,9 +111,9 @@ In [3]:
 
 ## Float in python
 
-https://link.springer.com/chapter/10.1007/978-3-319-50508-4_4
++ https://link.springer.com/chapter/10.1007/978-3-319-50508-4_4
 
-https://www.geeksforgeeks.org/floating-point-error-in-python/
++ https://www.geeksforgeeks.org/floating-point-error-in-python/
 
 ```python
 x = 0.1 + 0.2
