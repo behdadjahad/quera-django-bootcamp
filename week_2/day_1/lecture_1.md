@@ -115,12 +115,12 @@ class Circle:
         else:
             self.log = False
 
-c1 = Circle(1)
+c1 = Circle(1, True)
 c1.x = 20
 c1.y = 10
 
 
-c2 = Circle(1)
+c2 = Circle(1, False)
 
 print(dir(c1))
 print(dir(c2))
@@ -134,17 +134,17 @@ we can access the private property but it will not recommend by IDE or code edit
 ```python
 class Circle:
 
-    def __init__(self, r, isDebug, __radius):
+    def __init__(self, r):
         self.r = r
         self._isPrivate = True
-        this.__radius = r
+        self.__radius = r
 
 
 c1 = Circle(1)
 print(c1.r)
 print(c1._isPrivate)
-print(c1__radius) # will throw an exception
 print(c1._Circle__radius) # works fine
+print(c1.__radius) # will throw an exception
 ```
 
 
@@ -154,7 +154,7 @@ we can use classmethod decorator for making them available at class level (no ne
 ```python
 
 class Test:
-    testField
+    testField = 0
 
     def testMethod(self, x, y):
         return x + y
@@ -171,17 +171,15 @@ print(Test.testMethod(10, 20)) # will throw an exception
 ```python
 
 class Test:
-    testField
+    testField = 1
 
     @classmethod
     def testMethod(self, x, y):
         return x + y
 
 x = Test()
-
-print(x.testMethod(10, 20)) # will throw an exception
-
-print(Test.testMethod(10, 20)) 
+print(Test.testMethod(10, 20))
+print(x.testMethod(10, 20))
 
 ```
 
@@ -192,4 +190,6 @@ class myMath:
     @staticmethod
     def pow(x, y):
         return x ** y
+
+print(myMath.pow(10, 2))
 ```
