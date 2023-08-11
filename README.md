@@ -1,6 +1,6 @@
 # quera-django-bootcamp
 
-I'm trying to document all the code and commands or any other useful piece of data from Quera software engineering with the django boot camp in this repository.
+I'm trying to document all the code and commands or any other useful piece of data from "Quera Software Engineering with Django" Boot Camp in this repository.
 
 Feel free to add anything that I missed out.
 
