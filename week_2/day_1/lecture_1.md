@@ -183,7 +183,7 @@ print(x.testMethod(10, 20))
 
 ```
 
-staticmethod used for creating methods that dose not need objects (this definition may not be accurate)
+staticmethod used for creating methods that dose not need object or class reference (this definition may not be accurate)
 
 ```python
 class myMath:

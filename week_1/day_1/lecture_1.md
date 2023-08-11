@@ -9,10 +9,10 @@ print('hello, world')
 ```
 the result will be:
 
-```bash
-user@ubuntu:~$ python3 print.py
-user@ubuntu:~$ hello, world
-user@ubuntu:~$
+```console
+$ python3 print.py
+$ hello, world
+$
 ```
 
 note: the print function will add new line at the end by default
@@ -22,9 +22,9 @@ use end parameter to set your custom ending char
 print('hello world', end='-')
 ```
 
-```bash
-user@ubuntu:~$ python3 print.py
-user@ubuntu:~$ hello, world-user@ubuntu:~$
+```console
+$ python3 print.py
+$ hello, world-user@ubuntu:~$
 ```
 
 ```python
@@ -32,9 +32,9 @@ print('hello world', end='-')
 print('salam')
 ```
 
-```bash
-user@ubuntu:~$ hello, world-salam
-user@ubuntu:~$
+```console
+$ hello, world-salam
+$
 ```
 
 for sake of speed I will just write python code.
@@ -73,8 +73,8 @@ print(a)
 
 ## REPL (Read Evaluate Print Loop)
 
-```bash
-user@ubuntu:~$ python3
+```console
+$ python3
 ```
 
 ```
@@ -91,8 +91,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 + https://ipython.org/
 
 
-``` bash
-user@ubuntu:~$ ipython
+``` console
+$ ipython
 ```
 
 ```ipython
@@ -120,8 +120,8 @@ x = 0.1 + 0.2
 print(x)
 ```
 
-```bash
-user@ubuntu:~$ 0.30000000000000004
+```console
+$ 0.30000000000000004
 ```
 
 note: python can handle really really big numbers (limited by memory volume)
