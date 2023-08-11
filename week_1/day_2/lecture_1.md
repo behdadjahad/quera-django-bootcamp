@@ -33,3 +33,17 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 >>>
 ```
+
+``` python
+
+some_list = [0, 1] * 10
+some_list.append(2)
+some_list.insert(0, 10)
+some_list += [2, 3, 4]
+
+some_list = [i for i in range(20) if i % 5 == 0]
+
+other_list = [1 * 2 for i in some_list]
+
+
+```
