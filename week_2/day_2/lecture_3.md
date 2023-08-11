@@ -29,4 +29,17 @@ regexStr = r"[+\-]?[0-9]+\.[0-9]+" # this regex any float number
 + https://regexr.com/
 
 
+``` python
+import re
 
+my_regex = re.compile(r"[+\-]?[0-9]+\.[0-9]+",
+                        re.IGNORECASE | re.MULTILINE)
+
+text = "token-1234"
+
+if my_regex.match(text):
+    print("valid")
+else:
+    print("invalid")
+
+```
