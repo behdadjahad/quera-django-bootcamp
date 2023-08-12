@@ -133,3 +133,38 @@ underline will be ignored in numbers so we can use them for formatting  numbers:
 x = 10_000_000_000
 ```
 
+## divide in python
+
+```python
+result = 5 / 2
+print(result) # prints 2.5
+result = 5 // 2
+print(result) # prints 2
+```
+
+## increment and decrement operation  
+
+```python
+x = 1
+x += 1
+print(x) # 2
+x -= 1
+print(x) # 1
+
+```
++ note : we can use every math operation with this notation `var_name [operant]= value` and the result will be `var_name = var_name [operant] value`
+
+## power operant in python
+
+```python
+x = 2 ** 4
+print(x) # 16 
+```
+## complex number in python
+
+```python
+c = 1 + 2j # real part is 1 and imaginary part is 2
+print(c.real)
+print(c.imag)
+
+```
