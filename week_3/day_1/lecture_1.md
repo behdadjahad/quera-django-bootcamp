@@ -4,3 +4,12 @@
 # Algorithms
 
 ## greedy algorithms
+
+
++ file storage in multiple usb flashes
++ gas station problem
++ knapsack problem
+## dynamic programming
++ fibo
++ dp and matrix
++ 
