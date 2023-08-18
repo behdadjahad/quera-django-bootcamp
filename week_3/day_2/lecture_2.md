@@ -19,3 +19,11 @@
 '`git commit - 'commit msg'`' command added files from staged area to unmodified
 
 when we edit tracked files we added them from unmodified to modified area
+
+``` console
+$ git init
+$ git touch quera.txt
+$ git status 
+$ git add filename.txt
+$ git commit -m 'commit msg'
+```
