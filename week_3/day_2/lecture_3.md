@@ -6,3 +6,14 @@
 + commits should be meaningful
 + https://whatthecommit.com (fun)
 + https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13 (Conventional)
+
+
+```
+$ alias gcom="git commit"
+$ gcom - m "commit msg"
+```
+this will shorten some long commands
+
+
+## branches
+
