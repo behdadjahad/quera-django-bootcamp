@@ -8,6 +8,14 @@
   ``` console
   $ pip install django=4.2    
   ```
++ creating requirements file
   ``` console
-  $ pip free
+  $ pip freeze > requirments.txt
   ```
++ create simple django project
+  ``` console
+  $ django-admin startproject mysite
+  $ 
+  ```
+
++ manage.py is a command line utility
