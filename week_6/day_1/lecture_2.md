@@ -9,7 +9,7 @@ for windows
 + docker desktop
 
 
-to check if docker installed successfully use this .command
+to check if docker installed successfully use this command.
 ``` console
 $ docekr info
 ```
@@ -25,7 +25,7 @@ we can change or add or remove remove registry from daemon config file.
     "registry-mirrors" : ["https://hub.hamdock.ir"]
 }
 ```
-we can change or add or remove remove registry from daemon config file
+we can change or add or remove remove registry from daemon config file.
 
 
 file for docker service config `etc/systemd/docker.service.d/test.conf`.
