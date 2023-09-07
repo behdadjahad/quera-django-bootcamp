@@ -35,3 +35,11 @@ after changing docker service config
 $ systemctl daemon-reload
 
 ```
+
++ todo: complete above commands
+
+
+### volumes 
+
+
+### 
